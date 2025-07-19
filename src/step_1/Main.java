@@ -1,5 +1,7 @@
 package step_1;
 
+import java.util.Scanner;
+
 /**
  * Simplest estimation
  * -------------------
@@ -15,4 +17,17 @@ package step_1;
  */
 
 public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        int characterCount = input.length();
+
+        if (characterCount > 100) {
+            System.out.println("HARD");
+        } else {
+            System.out.println("EASY");
+        }
+
+        scanner.close();
+    }
 }
