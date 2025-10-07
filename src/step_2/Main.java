@@ -1,5 +1,7 @@
 package step_2;
 
+import java.util.Scanner;
+
 /**
  * Words and sentences
  * -------------------
@@ -20,4 +22,20 @@ package step_2;
  */
 
 public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+
+        String[] words = input.trim().split("\\s+");
+        String[] sentences = input.split("[.!?;]+");
+        double averageWordsPerSentence = (double) words.length / sentences.length;
+
+        if (averageWordsPerSentence > 10) {
+            System.out.println("HARD");
+        } else {
+            System.out.println("EASY");
+        }
+
+        scanner.close();
+    }
 }
