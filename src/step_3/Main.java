@@ -36,9 +36,9 @@ public class Main {
 
         StringBuilder sb = new StringBuilder();
         while (true) {
-            if (!scanner.hasNextLine()) break; // EOF
+            if (!scanner.hasNextLine()) break;
             String line = scanner.nextLine();
-            if (line.isEmpty()) break;         // κενή γραμμή τερματίζει
+            if (line.isEmpty()) break;
             sb.append(line).append(" ");
         }
         scanner.close();
