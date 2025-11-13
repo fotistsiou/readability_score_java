@@ -21,7 +21,7 @@ most suitable.
 Once you choose a project, we'll provide you with a study plan that includes all the necessary topics from your course
 to get it built. Here’s what awaits you:
 
-- Stage 1/6: Simplest estimation
+- Stage 1/4: Simplest estimation
     - Input a phrase or a sentence for the program to determine its difficulty level based on the symbol count.
     - Stage Topics:
         - Introduction to Java
@@ -64,7 +64,7 @@ to get it built. Here’s what awaits you:
         - IntelliJ IDEA
         - Run and debug with IntelliJ IDEA
         - IntelliJ IDEA run configurations
-- Stage 2/6: Words and sentences
+- Stage 2/4: Words and sentences
     - Apply your knowledge of advanced strings, arrays and regular expressions: determine how difficult the text is
       judging by the average count of words in the sentences.
     - Stage Topics:
@@ -86,7 +86,7 @@ to get it built. Here’s what awaits you:
         - Debugging simple constructs
         - IntelliJ IDEA basics
         - JetBrains Academy plugin
-- Stage 3/6: Score!
+- Stage 3/4: Score!
     - Add a readability score based on a special formula: it will estimate the difficulty levels of larger bodies of
       texts uploaded from a file.
     - Stage Topics:
@@ -110,7 +110,7 @@ to get it built. Here’s what awaits you:
         - Introduction to logging
         - Debugging techniques
         - Debugging methods
-- Stage 4/6: More parameters
+- Stage 4/4: More parameters
     - More parameters can be taken into account: for example, you can consider syllables and letters. Enable the program
       to base its estimation on those parameters altogether.
     - Stage Topics:
